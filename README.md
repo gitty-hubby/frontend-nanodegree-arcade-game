@@ -8,6 +8,8 @@ for self-checking their submission.
 ================================
 Beta 0.0.1 version of the game includes the following:
 
-Player has 5 lives 
+Player has 5 lives
+
 Each successful crossing increases Level (enemies speed)
+
 When all lives are spent, "Game Over" screen appears
