@@ -153,6 +153,8 @@ var Engine = (function(global) {
         });
 
         player.render();
+        lifes.render();
+        level.render();
     }
 
     /* This function does nothing but it could have been a good place to
@@ -172,7 +174,25 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/char-boy.png',
+        'images/char-boy-x.png',
+        'images/Star_sm.png',
+        'images/Gem_Green.png',
+        'images/lv1.png',
+        'images/lv2.png',
+        'images/lv3.png',
+        'images/lv4.png',
+        'images/lv5.png',
+        'images/lv6.png',
+        'images/lv7.png',
+        'images/lv8.png',
+        'images/lv9.png',
+        'images/lv10.png',
+        'images/lv11.png',
+        'images/lv12.png',
+        'images/game_end.png'
+        
+        
     ]);
     Resources.onReady(init);
 
